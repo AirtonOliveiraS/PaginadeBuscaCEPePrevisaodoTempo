@@ -1,7 +1,7 @@
 # DESAFIO 2
 
 
-Link do site disponibilizado: 
+Link do site disponibilizado: https://desafio-02-dnc.netlify.app/
 
 Este projeto foi feito durante a formação de engenharia de Software da Escola DNC
 
