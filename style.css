@@ -1,0 +1,256 @@
+
+#container {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Inter";
+}
+#cabecalho {
+  background-color: #0c70f2;
+  color: #ffffff;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#rodape {
+  background-color: #0c70f2;
+  color: #ffffff;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: right;
+  padding: 15px;
+  font-family: "Inter";
+  font-weight: bolder;
+}
+#links {
+  display: flex;
+  margin-right: 20px;
+  gap: 15px;
+}
+
+#DncWeather {
+  margin-left: 20px;
+  font-family: "Inter";
+  font-weight: bold;
+}
+
+.linkCabecalho {
+  color: #ffffff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: end;
+  margin-top: 20px;
+  font-family: "Inter";
+  font-weight: bolder;
+}
+#secao1 {
+  font-family: "Inter";
+  font-weight: bold;
+  color: #1f1f1f;
+  display: grid;
+  grid-auto-flow: column;
+}
+#secao1 {
+  padding: 100px;
+  gap: 50px;
+}
+#secao1 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60.51px;
+  text-align: left;
+  margin-top: 50px;
+}
+#secao1 img {
+  width: 255px;
+  height: 197px;
+  top: 177px;
+  left: 1133px;
+  gap: 0px;
+  opacity: 0px;
+}
+#secao2 {
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 200px;
+  width: 850px;
+  height: 800px;
+  top: 226px;
+  left: 254px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 0;
+
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: "Inter";
+}
+#forms {
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+  font-family: "Inter";
+  padding: 70px;
+ 
+  
+}
+#forms label{
+  margin: 30px 0px 15px 10px;
+  font-family: "Inter";
+  font-weight: bold;
+
+}
+
+
+.inputsEndereco {
+  background-color: #f2f2f2;
+  border-style: none;
+  width: 630px;
+  height: 56px;
+  top: 980px;
+  left: 499px;
+  gap: 0px;
+  border-radius: 10px ;
+  opacity: 0px;
+  padding:15px;
+}
+.inputsPrevisao {
+  background-color: #f2f2f2;
+  border-style: none;
+  width: 300px;
+  height: 56px;
+  margin: 20px;
+  top: 980px;
+  left: 499px;
+  gap: 0px;
+  border-radius: 10px ;
+  opacity: 0px;
+  padding:15px;
+}
+#secao2 button{
+  font-family: "Inter";
+  background-color: #0c70f2;
+  color: white;
+  width: 630px;
+  height: 50px;
+  border-radius: 10px ;
+  border-style: none;
+  font-weight: bold;
+}
+
+#secao3 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter";
+  grid-auto-flow: column;
+  padding: 15px;
+}
+#secao3 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60.51px;
+  text-align: left;
+  margin-top: 50px;
+}
+#secao4 {
+  margin: 0;
+  font-family: "Inter";
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#secao4 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60.51px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+#secao4 input {
+  margin-bottom: 200px;
+  border: 20px;
+  width: 1000px;
+  height: 50px;
+  margin-top: 35px;
+  margin-left: 130px;
+  gap: 0px;
+  border-radius: 30px;
+  border: 1px solid #0c70f2;
+  opacity: 0px;
+  padding: 20px;
+  text-align: left;
+}
+
+table {
+  width: 1000px;
+  margin-left: 130px;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+th {
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+tbody tr {
+  background-color: #ffffff;
+}
+
+tbody td {
+  padding: 20px;
+  text-align: left;
+  gap: 20px;
+  padding-left: 25px;
+}
+
+#resultPrevisao {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th:first-child {
+  border-top-left-radius: 10px;
+}
+
+th:last-child {
+  border-top-right-radius: 10px;
+}
+
+tbody tr:first-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+tbody tr:first-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
